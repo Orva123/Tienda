@@ -1,166 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina web tienda</title>
-    <link rel="stylesheet" href="tienda.css">
+    <title>Tienda</title>
 </head>
-
 <body>
-    <div class="contenedor">
-        <div class="encabezado">
-            <div class="cel">
-                <p>call us +48 300+312+312</p>
-            </div>
-            <div class="datos">
-                <p> wish list(0)</p>
-                <p>MyAccount</p>
-                <p>shoopingcard</p>
-                <p>checkout</p>
-                <p>US Dollar</p>
-            </div>
+    <div class="encabezado">
+        <div class="telefono">
+            <p>call ust +48 300-312-312</p>
         </div>
-        <div class="buscador">
-            <div class="logo-section">
-                <img src="img/Captura de pantalla 2025-08-01 212521.png" alt="sitio web logo" class="logo">
-            </div>
-            <h1>beamstore</h1>
-            <form class="barra-busqueda">
-                <div class="contenedor-input">
-                    <input type="text" placeholder="Buscar..." class="campo-busqueda">
-                    <span class="icono-busqueda">🔍</span>
-                </div>
+        <div class="relleno">
+            <p>whith list (D) </p>
+            <p>My Accouds</p>
+            <p>shoppingCar</p>
+            <p>Creckout</p>
+        </div>
+        <div class="Us-Dolar">
+            <p>USDolar</p>
+        </div>
+    </div>
+    <div class="bajo_encavezado">
+        <div class="logo">
+            <img src="img/Captura de pantalla 2025-08-01 212521.png" alt="logo">
+            <h1>Beamstore</h1>
+        </div>
+        <div class="buscar">
+            <form action="/buscar" method="get">
+            <label for="busqueda">Buscar:</label>
+            <input type="text" id="busqueda" name="q" placeholder="Escribe aquí..." />
+            <input type="submit" value="Buscar" />
             </form>
-            <div class="candado">
-                <p><span>🔒</span>shoppingcart:0-30.00</p>
-            </div>
         </div>
-        <div class="menuazul">
-            <ul class="menu">
-               <li class="active"><a href="#">Home</a></li>
-               <li><a href="#">Desktops</a></li>
-               <li><a href="#">Tablets</a></li>
-               <li><a href="#">Cameras</a></li>
-               <li><a href="#">Software</a></li>
-               <li><a href="#">Blog</a></li>
-               <li><a href="#">Buy this theme</a></li>
+        <div class="shoppingCart">
+            👜 shopping Cart: 0(tem(A))-30.00 🟨
+        </div>
+    </div>
+    <div class="menu-azul">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
-        </div>
-
-        <div class="contTaladro">
-            <div class="ladoizq">
-                <h1><b>DEWALT</b></h1>
-                
-                <h1>COMBI DRILL</h1>
-                <p>The quick brown fox jumps over the lazy dog. Digital clouds <br> drift across the screen, carrying forgotten dreams of productivity. 
-                </p> <a href="#" class="read-more-btn">READ MORE</a>
-
-
-            </div>
-            <div class="ingTaladro">
-                <img src="img/WhatsApp Image 2025-08-08 at 9.45.09 PM.jpeg" alt="Taladro" class="Taladro">
-            </div>
-            
-        </div>
-
-        <div class="main-container">
-  <!-- Sidebar - Featured -->
-  <aside class="sidebar">
-    <h3>Featured</h3>
-    <ul class="featured-list">
-      <li>
-        <img src="img/MacBook_Pro_13_in_Space_Gray_PDP_Image_Position-1_MXLA.webp" alt="MacBook">
-        <div>
-          <p class="title">MacBook</p>
-          <p class="price">$589.50</p>
-          <div class="stars">★★★★☆</div>
-        </div>
-      </li>
-      <li>
-        <img src="img/images.jpeg" alt="iPhone">
-        <div>
-          <p class="title">iPhone</p>
-          <p class="price">$120.68</p>
-          <div class="stars">★★★☆☆</div>
-        </div>
-      </li>
-      <li>
-        <img src="img/innovative-ilift-lcd-monitor-arm-imac-g5-apple-cinema-display-iop114__83416.jpg" alt="Apple Cinema">
-        <div>
-          <p class="title">Apple Cinema 30"</p>
-          <p class="price old">$120.00 <span class="new">$107.75</span></p>
-          <div class="stars">★★★★☆</div>
-        </div>
-      </li>
-      <li>
-        <img src="img/Icono_de_la_Arma_de_Rayos_BO2.webp" alt="Samsung Tab">
-        <div>
-          <p class="title">Samsung Tab</p>
-          <p class="price">$236.99</p>
-          <div class="stars">★★★★☆</div>
-        </div>
-      </li>
-    </ul>
-    <div class="arrows">
-      <span>&larr;</span>
-      <span>&rarr;</span>
-    </div>
-  </aside>
-
-  <!-- Main content -->
-  <div class="main-content">
-    <!-- Category banners -->
-    <div class="categories">
-      <div class="category">
-        <img src="img/Icono_de_la_Arma_de_Rayos_BO2.webp" alt="Heating">
-        <p><strong>HEATING</strong><br>& PIPES</p>
-      </div>
-      <div class="category">
-        <img src="switch.jpg" alt="Switches">
-        <p><strong>SWITCHES</strong><br>& SOCKETS</p>
-      </div>
-      <div class="category">
-        <img src="building.jpg" alt="Building">
-        <p><strong>BUILDING</strong><br>MATERIAL</p>
-      </div>
-    </div>
-
-    <!-- Filtered products -->
-    <div class="product-filter">
-      <h3>Filter product</h3>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="img/MacBook_Pro_13_in_Space_Gray_PDP_Image_Position-1_MXLA.webp" alt="Samsung Tab">
-          <p class="title">Samsung Tab</p>
-          <p class="price">$236.99</p>
-          <div class="stars">★★★★☆</div>
-        </div>
-        <div class="product-card">
-          <img src="img/images.jpeg" alt="iPod Classic">
-          <p class="title">iPod Classic</p>
-          <p class="price">$119.50</p>
-          <div class="stars">★★★☆☆</div>
-        </div>
-        <div class="product-card">
-          <img src="img/innovative-ilift-lcd-monitor-arm-imac-g5-apple-cinema-display-iop114__83416.jpg" alt="HP LP3065">
-          <p class="title">HP LP3065</p>
-          <p class="price">$119.50</p>
-          <div class="stars">★★★☆☆</div>
-        </div>
-        <div class="product-card">
-          <img src="img/Icono_de_la_Arma_de_Rayos_BO2.webp" alt="Sony VAIO">
-          <p class="title">Sony VAIO</p>
-          <p class="price">$1,177.00</p>
-          <div class="stars">★★★★★</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+        </nav>
 
     </div>
 </body>
-
 </html>
